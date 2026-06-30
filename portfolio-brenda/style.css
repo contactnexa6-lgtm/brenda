@@ -1,0 +1,375 @@
+     
+     body    {
+        background: #0d0d0d;
+        color: white;
+       font-family: 'Courier New', Courier, monospace;
+        margin: 0%;
+        padding: 0%;
+
+     }
+     .navbar{
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 50px;
+        background: black;
+     }
+     .logo{
+        color: pink;
+        font-size: 80px;
+        font-weight: bold;
+      
+;
+
+     }
+     .nav-links {
+        display: flex;
+        gap: 30px;
+        list-style: none;
+     }
+     .nav-links a{
+        color: white;
+        text-decoration: none;
+
+     }
+     .nav-links a:hover{
+        color: rgb(230, 163, 174);
+     }
+     h1{
+        font-size: 80px;
+        text-align: center;
+        margin-top: 100px;
+     }
+     h1 span{
+        color: rgb(238, 193, 201);
+     }
+     p{
+        text-align: center;
+        color: #c2b1b1;
+     }
+     .btn-contact{
+        color: white;
+        text-decoration: none;
+        border: 1px solid white;
+        padding: 8px 20px;
+       border-radius: 20px;
+     }
+     .hero{
+        padding: 100px 80px;
+        display: flex;
+         justify-content: space-between; /* Sépare les deux divs en les plaçant aux extrémités */
+      font-size: 30px;
+      
+     }
+     .hero-text{
+      width: 50%;
+      color: white;
+     }
+     /* .hero-img{
+      
+        background-image: url('brenda.jpeg');
+        background-size: contain;
+        background-repeat: no-repeat;
+        ba
+     } */
+     .subtltle{
+       letter-spacing: 0px;
+       font-size: 80px;
+      
+       
+
+       }
+       .btn-primary{
+         display: inline-block;
+         padding: 12px 28px;
+         background-color: #f7b7c7;
+         color: #0a0a0a;
+         text-decoration: none;
+         border-radius: 6px;
+         font-weight: 600;
+         font-size: 15px;
+         border: none;
+       }
+       .btn-primary:hover{
+         background-color:#25d266;
+         
+       }
+       
+     .a[fref="#projets"]{
+      color: white;
+      background: #8b5cf6;
+     }
+     .footer{
+    background: #000000;
+    color: #ddd;
+    padding: 30px;8% ;
+    font-family:aril,sans-serif;
+
+     }
+     .contenu-footer{
+      display: flex;
+      justify-content: space-between;
+      gap: 30px;
+      flex-wrap: wrap;
+      
+      margin-bottom: 40px;
+     }
+     .bloc.footer-services{
+      width: 23%;
+      min-width: 180PX;
+
+     }
+     .bloc h3{
+      font-size: 32px;
+      color: rgba(236, 156, 211, 0.8);
+      margin-bottom: 20PX;
+      letter-spacing: 2PX;
+      font-weight: bold;
+
+     }
+     .bloc ul{
+      list-style: none;
+      padding: 0;
+      margin: 0%;
+      
+       
+     }
+     
+     img {
+
+ height: 5
+ 00px;
+  width: 600px;
+  border-radius: 15%;
+  
+     }     
+      .about{
+         background: #f9f9f9;
+         color: white;
+         padding: 100px;
+         display: flex;
+         gap: 50px;
+         align-items: center;
+         font-family: 15px;
+   ;
+         
+      }                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      %/
+     .about img{
+      width: 350px;
+      border-radius: 15px;
+      object-fit: cover;
+      ;
+
+     }
+     .tag{
+      background-color: #f7b7c7;
+      display: inline-block;
+      color: #000;
+      padding: 6px 16px;
+      border-radius: 20px;
+      font-size: 14px;
+      font-weight: 600;
+      margin-bottom: 15px;
+
+
+      
+     }
+     .about h2{
+     font-size: 32;
+     margin-bottom: 20px;
+     color: #1a1a1a;
+     }
+     .about ul{
+      list-style: none;
+      padding: 0;
+      margin: 00 25px 0;
+
+     }
+     .about li{
+      font-size: 16px;
+      line-height: 1.7;
+      color: #444;
+      position: relative;
+      padding-left: 20px;
+      margin-bottom: 12px;
+      text-decoration: none;
+      list-style: none;
+
+     }
+.btn{
+  background-color: pink;
+   color:#000;
+   padding: 12px 28px;
+   text-decoration: none;
+   border-radius: 25px;
+   display: inline-block;
+   margin-top: 10px;
+
+}
+.btn:hover{
+   background: #f5a2f7;a;
+   transition: all0.3s ease;
+  }
+
+   
+.contact{
+   max-width: 600px;
+   margin: 60px auto;
+   padding: 40px;
+   background: white;
+   border-radius: 12px;
+   box-shadow: 0 4px 20px rgba(0, 0,0,0.8);
+   text-align: center;
+   max-width: 600px;
+   box-sizing: border-box;
+}
+.contact h2{
+   font-size: 28px;
+   color: #1a1a1a;
+   margin-bottom: 8px;
+
+}
+.contact p{
+   color: #2d7a2d;
+   margin-bottom: 25px;
+   font-weight: 500;
+
+}
+.contact input ,
+.contact textarea{
+   width: 100%;
+   padding: 13px;
+   margin-bottom: 14px;
+   border: 1px solid #e0e0e0;
+   border-radius: 8px;
+   font-size: 15px;
+   font-family: inherit;
+}
+.contact input:focus,
+.contact textarea:focus{
+   outline: none;
+   border-color: #2d7a2d;
+}
+.contact button{
+   width: 100%;
+   padding: 13px;
+   background: #2d7a2d;
+   color: white;
+   border: none;
+   border-radius: 8px;
+   font-weight: bold;
+   cursor: pointer;
+   transition: 0.2s
+   ;
+}
+.contact button:hover{
+   background: #246124;
+}
+.whatsapp{
+   background: #25d266;
+   padding: 15px;
+   margin: 30px auto;
+   max-width: 500px;
+   border-radius: 8px;
+   
+}
+.whatsapp a{
+   color: white;
+   text-decoration: none;
+   font-weight: bold;
+   display: block;
+}
+.whatsapp:hover{
+   background: #20b958;
+}
+.contact input
+.contact textarea
+.contact button{
+   box-sizing: border-box;
+}
+.footer{
+   background: black
+   color:#d1d5db;
+   padding: 50px;
+   justify-content: space-around;
+  
+
+}
+.footer-logo {
+   color: #f472b6;
+   font-size: 28px;
+   margin: 10px;
+}
+.footer-liens{
+   color:white
+   text-transform: uppercase;
+   letter-spacing: 1px;
+   margin: 15px;
+   text-decoration: none;
+}
+.footer-services{
+   color: white
+   text-transform: uppercase;
+   letter-spacing: 1px;
+   margin: 15px;
+}
+.footer-contact{
+   colorrgb:white
+   text-transform: uppercase;
+   letter-spacing: 1px;
+   margin: 15px;
+   
+
+}
+.footer-bottom{
+   color: white;
+   text-transform: uppercase;
+   margin: 15px;
+   letter-spacing: 1px;
+
+}
+.footer{
+   display: flex;
+   gap: 50px;
+
+}
+a{
+   text-decoration: none;
+   color: white;
+
+}
+ul{
+   list-style: none;
+   padding: 0;
+}
+.skills{
+   padding: 60px;
+   background: #fff;
+   text-align: center;
+}
+.skills.tag{
+   font-size: 14px;
+   color: pink;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+   margin-bottom: 10px;
+
+}
+.skills h2{
+   font-size: 28px;
+   font-weight: 700;
+   margin-bottom: 40px;
+   color: #111;
+}
+.skills-grid{
+   display: flex;
+   gap: 20px;
+   overflow: auto;
+   padding: 15px;
+
+}
+.skill-card h3{
+   font-size: 20px;
+   margin-bottom: 12px;
+   color: #db4ca4;
+
+}
